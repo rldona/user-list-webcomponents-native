@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>User List Webcomponent Native</title>
+  <meta name="Description" content="Native Web Component User List">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <style>
+    html,
+    body {
+      margin-top: 10px;
+    }
+
+    *, *:before, *:after {
+      box-sizing: border-box;
+    }
+
+    body {
+      font: 16px 'Arial';
+      line-height: 1.4em;
+      background-color: #F1F1F1;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 1.5em;
+      margin: 30px 0 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>User list made with native Web Components</h1>
+
+  <user-list />
+
+  <script src="./components/user-list.js"></script>
+  <script src="./components/user-detail.js"></script>
+
+</body>
+</html>
